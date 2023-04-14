@@ -21,5 +21,11 @@ namespace QuanLyDichVuKhachSan
 		{
 			
 		}
+
+		private void btnXoaKH_Click(object sender, EventArgs e)
+		{
+			txtChiTietKH.Text = "";
+			txtDiaChiKH.Text = "";
+		}
 	}
 }
