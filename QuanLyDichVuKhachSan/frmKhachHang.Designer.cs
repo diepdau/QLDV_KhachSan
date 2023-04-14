@@ -156,6 +156,7 @@
 			this.btnXoaKH.TabIndex = 8;
 			this.btnXoaKH.Text = "Xóa";
 			this.btnXoaKH.UseVisualStyleBackColor = true;
+			this.btnXoaKH.Click += new System.EventHandler(this.btnXoaKH_Click);
 			// 
 			// txtChiTietKH
 			// 
